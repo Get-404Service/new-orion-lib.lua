@@ -1540,7 +1540,7 @@ TweenService:Create(TabFrame.Title, TweenInfo.new(0.25, Enum.EasingStyle.Quint, 
 			function ElementFunction:AddColorpicker(ColorpickerConfig)
 				ColorpickerConfig = ColorpickerConfig or {}
 				ColorpickerConfig.Name = ColorpickerConfig.Name or "Colorpicker"
-				ColorpickerConfig.Default = ColorpickerConfig.Default or Color3.fromRGB(255,255,255)
+				ColorpickerConfig.Default = ColorpickerConfig.Default or Color3.fromRGB(9, 149, 98)
 				ColorpickerConfig.Callback = ColorpickerConfig.Callback or function() end
 				ColorpickerConfig.Flag = ColorpickerConfig.Flag or nil
 				ColorpickerConfig.Save = ColorpickerConfig.Save or false
